@@ -1,6 +1,6 @@
 # auction-service
 
-- To run application from command line, go to the project root and run the following commands (make sure maven is installed):
+- To run application from command line, go to the project root and run the following commands:
     - mvn clean
     - mvn compile
     - mvn spring-boot:run
