@@ -1,5 +1,6 @@
-package com.example.auctionservice.pojo;
+package com.example.auctionservice.pojo.response;
 
+import com.example.auctionservice.pojo.response.ErrorResponse;
 import lombok.Data;
 
 import java.beans.ConstructorProperties;

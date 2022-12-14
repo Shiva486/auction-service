@@ -15,10 +15,9 @@ public class SwaggerConfig {
     public OpenAPI openAPI() {
         return new OpenAPI()
                 .info(new Info().title("Auction-Service APIs")
-                                .description("https://docs.google.com/document/d/1enEc_dVMxjiMx3OgHeewoWQUA3ED_5myLKQRHzklOps/edit")
                                 .version("v0.0.1")
-                                .license(new License().name("Apache 2.0")
-                                                      .url("https://www.apache.org/licenses/LICENSE-2.0"))
+                                .license(new License().name("Problem Statement")
+                                                      .url("https://docs.google.com/document/d/1enEc_dVMxjiMx3OgHeewoWQUA3ED_5myLKQRHzklOps/edit"))
                                 .contact(new Contact().email("shiva.chandra11@gmail.com")))
                 .externalDocs(new ExternalDocumentation().description("Github Repo")
                                                          .url("https://github.com/Shiva486/auction-service"));

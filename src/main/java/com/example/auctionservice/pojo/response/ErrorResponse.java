@@ -1,4 +1,4 @@
-package com.example.auctionservice.pojo;
+package com.example.auctionservice.pojo.response;
 
 import lombok.Data;
 

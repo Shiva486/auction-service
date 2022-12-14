@@ -1,7 +1,7 @@
 package com.example.auctionservice.controller;
 
-import com.example.auctionservice.pojo.ErrorResponse;
-import com.example.auctionservice.pojo.Response;
+import com.example.auctionservice.pojo.response.ErrorResponse;
+import com.example.auctionservice.pojo.response.Response;
 
 public abstract class AbstractController {
     protected <T> Response<?> getSuccessResponse(T t) {
